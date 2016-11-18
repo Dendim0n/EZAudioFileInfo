@@ -17,3 +17,4 @@ Usage:
          let artist = fileInfo.getArtist()
          let album = fileInfo.getAlbum()
          let coverImage = fileInfo.getArtwork()
+         let duration = fileInfo.getDuration() //String like "12:34"
