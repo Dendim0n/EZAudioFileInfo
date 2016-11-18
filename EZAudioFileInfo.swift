@@ -72,7 +72,7 @@ class EZAudioFileInfo: NSObject {
         }
         return ""
     }
-    func getPic() -> UIImage {
+    func getArtwork() -> UIImage {
         guard fileLoaded else {
             if placeHolderImage != nil {
                 return placeHolderImage!
